@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: silver_customers_clean
+    description: "Table clients nettoyée et unique"
+  - name: silver_orders_flat
+    description: "Commandes enrichies avec items"
+  - name: silver_products_clean
+    description: "Produits nettoyés et typés"
+  - name: gold_sales_per_category
+    description: "Ventes par catégorie de produit"
+  - name: gold_customer_segmentation
+    description: "Segmentation clients selon nombre de commandes et CA"
+  - name: gold_kpi_daily
+    description: "KPIs quotidiens : nombre de commandes et CA"

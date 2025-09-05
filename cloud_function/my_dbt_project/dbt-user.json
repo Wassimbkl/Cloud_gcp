@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "data-cloud-mydigitalschool",
+  "private_key_id": "fa7af62d86226dfe8c7f2f73ee5639623778bfed",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC7CjC4vgqi0np9\n8JniJ2OcRKjCBTEtWn4mbCpV1nbXbYPeyB+w1gh155XtsHJbWbjMXkOQNcsRbDy4\n3Evhv+BGHwo5+XkST41nIlpeVqCgaC9REjWCJKOQl0rZswFt/Z2LL2Wcvb8ZGECa\nh5GL3tJ//tgPjg2iDVZQ5wVbOWXQg9fkVJRXBYDoJuDbdIrX9wDdgf8yaLlyt/aa\ntbCOfwAvujlKMpRwa07tQdzl8Rae+iJLz+ULRwBFK3mSE7sNH1lC6OS+YSPcoxhB\nCvHqujFzx3qp5qNB9sveeSas1tnDiK0omD7N3rSY2dpWlgRz5WaZpNuik8EB/aal\nHeh9WDPZAgMBAAECggEAFPhcw429DAnMpXuZCS/Q3XeeMxiZbaQQcjbc3UBdFSSo\nbQ0jbnRkwPFc0Cgg/ih2TWWBLjU1xgeMXE6IrHASkVIQF7Vmc1zbdfV2S87rFejw\naya/PI7mjsLDp9pHvgD6DZ2cByGIACSFs72g3h12nNah+0Z6NVHI/GuWYGa0SVcZ\nwrfDodjj9dz/WyVXZZN4TuWQd4RUM5nQAegYUKtRxxrAtXzD3ApxLiuXkaIfGKPi\nZ6VAP18AuqDYO6eAp0JG4i9GUt6jqHjzp2YH6X1mDCY4RlPpsJ/VRCPFmKhZD8At\nPwky7HMgJeR3aWW5JHXelY/0DdAxSo4JFdx0p1fDwQKBgQDg8ayYi1SKbjbp+Ffd\n6K6uVtSOG0gt89Y5ERnxLJeN5NPnx+M7KLiAOvpLSAiaevOtWFToREHi8xjW1oLd\niGbVWTTiKyHEq8uwK7+0MUk2OtQ6V9z+04p6kFT/0Tafe2aeaQgWoMOJ4GkCK+k8\ndjobadk9BgKoZnrgZLw7Dwzr4QKBgQDU3NhY+RQ9M92c+dslyD1TUsc2DNSD3jSG\nzdTX9kShJamooNcF+6O/ofS6GjrtXRGUAHHEX/zT47Q0fz+kIrU3x2ExlC5KTwSt\ncoMfkbHe4v034ysY7aSLoRze3vj3vdMyLrcZ9vrC/9e1mdIIe6/olNuiLGgD8nPv\np4jPyC+G+QKBgGtdzyTsdAiy/JEGkWIA+seJ+GBv0y7j0N9iM0CzKQ94JlDeTq5h\nDFdgTzF5i2m4v/CAVd6bHdumbre0obf9sB+rOZuuPKrz2QAYkaL/V1OEFuJWJ8yV\nyeYgWAHWqTzMGLoJpeuvBkYcD+MSdHwAblHBXwhKgyA/8eyDCHkkAOXhAoGBAMFz\n6GeMDznELk9gwCspPZrBa20S4fzqcGBnJl4TYbH20acAbgrw9JPPs+OCvTVF1Rjm\nAn8PIW7MzdS8JPGd3YZQ/GMboapFACJGJScGuVmwf6NQILXqHBYOGXfvuuMksJE1\n5ZCCZsnbzIYtwrWU+3zr9GQB6ZJUwcr3Pp5f99m5AoGBAJCd1e5w8NiTxRbJg/nS\nIvqRh28ByPGDbkre8h5Hxwg9uXRn16TT6ASSIhSK/mB+t8iW19NPFSnFpHRF+2AW\ntZUspU1sSgsxskBnTob1FOVml3bhu9AQ9K4k3+wsHWsKe1mgYW4hGYXaoJ1Bt9+w\nDj1ZjVRQ8yyde4qskBoiR8aI\n-----END PRIVATE KEY-----\n",
+  "client_email": "dbt-user@data-cloud-mydigitalschool.iam.gserviceaccount.com",
+  "client_id": "109951771380747880897",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dbt-user%40data-cloud-mydigitalschool.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

@@ -1,0 +1,39 @@
+version: 2
+
+sources:
+  - name: raw_data
+    database: data-cloud-mydigitalschool   
+    schema: data                      
+    tables:
+      - name: clients
+      - name: commandes
+      - name: produits
+models:
+  - name: stg_clients
+    description: "Staging des clients"
+    columns:
+      - name: client_id
+        description: "ID unique du client"
+        tests:
+          - not_null
+          - unique
+
+  - name: stg_commandes
+    description: "Staging des commandes"
+    columns:
+      - name: commande_id
+        description: "ID unique de la commande"
+        tests:
+          - not_null
+          - unique
+      - name: client_id
+        description: "Référence vers le client"
+
+  - name: stg_produits
+    description: "Staging des produits"
+    columns:
+      - name: produit_id
+        description: "ID unique du produit"
+        tests:
+          - not_null
+          - unique

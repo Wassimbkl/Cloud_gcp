@@ -1,0 +1,249 @@
+[0m12:06:24.839065 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002567CC1B6D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002567EEBBBB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002567EEB9690>]}
+
+
+============================== 12:06:24.846063 | a44683b8-d38c-4772-bd0f-5b64aff9fb85 ==============================
+[0m12:06:24.846063 [info ] [MainThread]: Running with dbt=1.10.11
+[0m12:06:24.847063 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'profiles_dir': 'C:\\Users\\imadb\\.dbt', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'warn_error': 'None', 'invocation_command': 'dbt init my_dbt_project', 'log_format': 'default', 'version_check': 'True', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'quiet': 'False', 'empty': 'None', 'log_cache_events': 'False', 'log_path': 'logs', 'indirect_selection': 'eager', 'write_json': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m12:06:25.046022 [debug] [MainThread]: Starter project path: C:\Users\imadb\OneDrive\Bureau\Mydigitalschool\cloud\cloud_function\venv\lib\site-packages\dbt\include\starter_project
+[0m12:06:25.078012 [info ] [MainThread]: 
+Your new dbt project "my_dbt_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m12:06:25.079012 [info ] [MainThread]: Setting up your profile.
+[0m12:07:27.278831 [info ] [MainThread]: Profile my_dbt_project written to C:\Users\imadb\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m12:07:27.281839 [debug] [MainThread]: Command `dbt init` succeeded at 12:07:27.281839 after 62.63 seconds
+[0m12:07:27.282849 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002567CC1B6D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000256298FC940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000256298FD090>]}
+[0m12:07:27.283834 [debug] [MainThread]: Flushing usage events
+[0m12:07:27.699454 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:18:25.834134 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013AED67B760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013AEF92A6E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013AEF928970>]}
+
+
+============================== 12:18:25.843320 | a5494dd2-802e-4846-b828-8915971b07be ==============================
+[0m12:18:25.843320 [info ] [MainThread]: Running with dbt=1.10.11
+[0m12:18:25.845328 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'write_json': 'True', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'cache_selected_only': 'False', 'target_path': 'None', 'version_check': 'True', 'invocation_command': 'dbt debug', 'log_format': 'default', 'use_colors': 'True', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'empty': 'None', 'printer_width': '80', 'quiet': 'False', 'use_experimental_parser': 'False', 'log_path': 'logs', 'indirect_selection': 'eager', 'profiles_dir': 'C:\\Users\\imadb\\.dbt', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True'}
+[0m12:18:25.902346 [info ] [MainThread]: dbt version: 1.10.11
+[0m12:18:25.903314 [info ] [MainThread]: python version: 3.10.11
+[0m12:18:25.904320 [info ] [MainThread]: python path: C:\Users\imadb\OneDrive\Bureau\Mydigitalschool\cloud\cloud_function\venv\Scripts\python.exe
+[0m12:18:25.905318 [info ] [MainThread]: os info: Windows-10-10.0.22631-SP0
+[0m12:18:31.779017 [info ] [MainThread]: Using profiles dir at C:\Users\imadb\.dbt
+[0m12:18:31.779017 [info ] [MainThread]: Using profiles.yml file at C:\Users\imadb\.dbt\profiles.yml
+[0m12:18:31.780019 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\imadb\OneDrive\Bureau\Mydigitalschool\cloud\cloud_function\dbt_project.yml
+[0m12:18:31.781013 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m12:18:31.783017 [debug] [MainThread]: Command `dbt debug` failed at 12:18:31.783017 after 6.11 seconds
+[0m12:18:31.784015 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013AED67B760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013A9A3E4F70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013A9A3E7520>]}
+[0m12:18:31.785011 [debug] [MainThread]: Flushing usage events
+[0m12:18:32.216223 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:19:37.314207 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D8E421B730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D8E64BBCD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D8E64B8940>]}
+
+
+============================== 12:19:37.319205 | b2330394-7126-4571-a8c5-e3343290e209 ==============================
+[0m12:19:37.319205 [info ] [MainThread]: Running with dbt=1.10.11
+[0m12:19:37.320201 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'version_check': 'True', 'invocation_command': 'dbt debug', 'log_format': 'default', 'warn_error': 'None', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'empty': 'None', 'log_cache_events': 'False', 'quiet': 'False', 'indirect_selection': 'eager', 'log_path': 'logs', 'write_json': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'profiles_dir': 'C:\\Users\\imadb\\.dbt'}
+[0m12:19:37.344204 [info ] [MainThread]: dbt version: 1.10.11
+[0m12:19:37.345203 [info ] [MainThread]: python version: 3.10.11
+[0m12:19:37.346202 [info ] [MainThread]: python path: C:\Users\imadb\OneDrive\Bureau\Mydigitalschool\cloud\cloud_function\venv\Scripts\python.exe
+[0m12:19:37.347205 [info ] [MainThread]: os info: Windows-10-10.0.22631-SP0
+[0m12:19:40.956580 [info ] [MainThread]: Using profiles dir at C:\Users\imadb\.dbt
+[0m12:19:40.957581 [info ] [MainThread]: Using profiles.yml file at C:\Users\imadb\.dbt\profiles.yml
+[0m12:19:40.958580 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\imadb\OneDrive\Bureau\Mydigitalschool\cloud\cloud_function\dbt_project.yml
+[0m12:19:40.960582 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m12:19:40.962579 [debug] [MainThread]: Command `dbt debug` failed at 12:19:40.962579 after 3.79 seconds
+[0m12:19:40.963583 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D8E421B730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D890FB76D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D890FB4DF0>]}
+[0m12:19:40.963583 [debug] [MainThread]: Flushing usage events
+[0m12:19:41.378721 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:20:15.745598 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C8C0B07700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C8C2DAB700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C8C2DA8DC0>]}
+
+
+============================== 12:20:15.750156 | bdf24055-1d05-4a4f-8866-ed0786a5da6f ==============================
+[0m12:20:15.750156 [info ] [MainThread]: Running with dbt=1.10.11
+[0m12:20:15.751145 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'cache_selected_only': 'False', 'target_path': 'None', 'version_check': 'True', 'invocation_command': 'dbt debug', 'log_format': 'default', 'use_colors': 'True', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'empty': 'None', 'use_experimental_parser': 'False', 'quiet': 'False', 'printer_width': '80', 'indirect_selection': 'eager', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\imadb\\.dbt', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'write_json': 'True'}
+[0m12:20:15.770147 [info ] [MainThread]: dbt version: 1.10.11
+[0m12:20:15.771145 [info ] [MainThread]: python version: 3.10.11
+[0m12:20:15.772157 [info ] [MainThread]: python path: C:\Users\imadb\OneDrive\Bureau\Mydigitalschool\cloud\cloud_function\venv\Scripts\python.exe
+[0m12:20:15.773147 [info ] [MainThread]: os info: Windows-10-10.0.22631-SP0
+[0m12:20:19.273401 [info ] [MainThread]: Using profiles dir at C:\Users\imadb\.dbt
+[0m12:20:19.274405 [info ] [MainThread]: Using profiles.yml file at C:\Users\imadb\.dbt\profiles.yml
+[0m12:20:19.275385 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\imadb\OneDrive\Bureau\Mydigitalschool\cloud\cloud_function\dbt_project.yml
+[0m12:20:19.277391 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m12:20:19.279397 [debug] [MainThread]: Command `dbt debug` failed at 12:20:19.278388 after 3.69 seconds
+[0m12:20:19.279397 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C8C0B07700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C8ED864C40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C8ED867850>]}
+[0m12:20:19.280405 [debug] [MainThread]: Flushing usage events
+[0m12:20:19.664382 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:22:57.556525 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002956BD77760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002956E01A6E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002956E018970>]}
+
+
+============================== 12:22:57.564526 | ac52efb2-663e-4a71-aa71-9dae8dea55de ==============================
+[0m12:22:57.564526 [info ] [MainThread]: Running with dbt=1.10.11
+[0m12:22:57.566538 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'write_json': 'True', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'warn_error': 'None', 'invocation_command': 'dbt debug', 'log_format': 'default', 'version_check': 'True', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'quiet': 'False', 'printer_width': '80', 'empty': 'None', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\imadb\\.dbt', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m12:22:57.604048 [info ] [MainThread]: dbt version: 1.10.11
+[0m12:22:57.606048 [info ] [MainThread]: python version: 3.10.11
+[0m12:22:57.607051 [info ] [MainThread]: python path: C:\Users\imadb\OneDrive\Bureau\Mydigitalschool\cloud\cloud_function\venv\Scripts\python.exe
+[0m12:22:57.608043 [info ] [MainThread]: os info: Windows-10-10.0.22631-SP0
+[0m12:23:02.527372 [info ] [MainThread]: Using profiles dir at C:\Users\imadb\.dbt
+[0m12:23:02.528362 [info ] [MainThread]: Using profiles.yml file at C:\Users\imadb\.dbt\profiles.yml
+[0m12:23:02.529359 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\imadb\OneDrive\Bureau\Mydigitalschool\cloud\cloud_function\dbt_project.yml
+[0m12:23:02.530356 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m12:23:02.533355 [debug] [MainThread]: Command `dbt debug` failed at 12:23:02.532358 after 5.15 seconds
+[0m12:23:02.533355 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002956BD77760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029518AD4A00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029518AD79D0>]}
+[0m12:23:02.534358 [debug] [MainThread]: Flushing usage events
+[0m12:23:02.965917 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:25:07.340153 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F82D7077C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F82F9ABD60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F82F9A9270>]}
+
+
+============================== 12:25:07.345151 | 9217c503-e8b2-4b4b-b5e5-36e9c1a14516 ==============================
+[0m12:25:07.345151 [info ] [MainThread]: Running with dbt=1.10.11
+[0m12:25:07.346146 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'profiles_dir': 'C:\\Users\\imadb\\.dbt', 'send_anonymous_usage_stats': 'True', 'version_check': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'use_colors': 'True', 'invocation_command': 'dbt debug', 'log_format': 'default', 'warn_error': 'None', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'empty': 'None', 'printer_width': '80', 'quiet': 'False', 'log_path': 'logs', 'indirect_selection': 'eager', 'write_json': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m12:25:07.370180 [info ] [MainThread]: dbt version: 1.10.11
+[0m12:25:07.370180 [info ] [MainThread]: python version: 3.10.11
+[0m12:25:07.371181 [info ] [MainThread]: python path: C:\Users\imadb\OneDrive\Bureau\Mydigitalschool\cloud\cloud_function\venv\Scripts\python.exe
+[0m12:25:07.372197 [info ] [MainThread]: os info: Windows-10-10.0.22631-SP0
+[0m12:25:11.380146 [info ] [MainThread]: Using profiles dir at C:\Users\imadb\.dbt
+[0m12:25:11.381157 [info ] [MainThread]: Using profiles.yml file at C:\Users\imadb\.dbt\profiles.yml
+[0m12:25:11.382140 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\imadb\OneDrive\Bureau\Mydigitalschool\cloud\cloud_function\dbt_project.yml
+[0m12:25:11.384136 [info ] [MainThread]: adapter type: bigquery
+[0m12:25:11.385142 [info ] [MainThread]: adapter version: 1.10.1
+[0m12:25:11.386141 [info ] [MainThread]: Configuration:
+[0m12:25:11.387137 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m12:25:11.388141 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m12:25:11.389142 [info ] [MainThread]: Required dependencies:
+[0m12:25:11.390142 [debug] [MainThread]: Executing "git --help"
+[0m12:25:11.462134 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m12:25:11.462134 [debug] [MainThread]: STDERR: "b''"
+[0m12:25:11.463140 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m12:25:11.464143 [info ] [MainThread]: Connection:
+[0m12:25:11.465139 [info ] [MainThread]:   method: service-account
+[0m12:25:11.466139 [info ] [MainThread]:   database: data-cloud-mydigitalschool
+[0m12:25:11.468168 [info ] [MainThread]:   execution_project: data-cloud-mydigitalschool
+[0m12:25:11.469148 [info ] [MainThread]:   schema: data
+[0m12:25:11.470140 [info ] [MainThread]:   location: EU
+[0m12:25:11.470140 [info ] [MainThread]:   priority: None
+[0m12:25:11.471147 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m12:25:11.473149 [info ] [MainThread]:   impersonate_service_account: None
+[0m12:25:11.473149 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m12:25:11.474149 [info ] [MainThread]:   job_retries: 1
+[0m12:25:11.476143 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m12:25:11.476143 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m12:25:11.477651 [info ] [MainThread]:   timeout_seconds: 300
+[0m12:25:11.478666 [info ] [MainThread]:   client_id: None
+[0m12:25:11.478666 [info ] [MainThread]:   token_uri: None
+[0m12:25:11.479657 [info ] [MainThread]:   compute_region: None
+[0m12:25:11.480657 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m12:25:11.480657 [info ] [MainThread]:   gcs_bucket: None
+[0m12:25:11.481671 [info ] [MainThread]:   dataproc_batch: None
+[0m12:25:11.482674 [info ] [MainThread]: Registered adapter: bigquery=1.10.1
+[0m12:25:12.579960 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m12:25:12.580955 [debug] [MainThread]: On debug: select 1 as id
+[0m12:25:12.580955 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m12:25:13.119929 [error] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-cloud-mydigitalschool&j=bq:EU:5fdcb3cc-e1a3-44c6-b23f-ab0c212baafa&page=queryresults
+[0m12:25:13.122943 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m12:25:13.123932 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m12:25:13.124922 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\imadb\OneDrive\Bureau\Mydigitalschool\cloud\cloud_function\dbt_project.yml> not found
+
+[0m12:25:13.125921 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  Access Denied: Project data-cloud-mydigitalschool: User does not have bigquery.jobs.create permission in project data-cloud-mydigitalschool.
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m12:25:13.127931 [debug] [MainThread]: Command `dbt debug` failed at 12:25:13.127931 after 5.95 seconds
+[0m12:25:13.128934 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m12:25:13.129946 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F82D7077C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F85A467CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F85A466650>]}
+[0m12:25:13.130951 [debug] [MainThread]: Flushing usage events
+[0m12:25:13.528239 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:25:23.355440 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023221D07730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023223FABCD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023223FA8970>]}
+
+
+============================== 12:25:23.360441 | 007425d9-e0c8-4af5-ae9c-6493442aa23e ==============================
+[0m12:25:23.360441 [info ] [MainThread]: Running with dbt=1.10.11
+[0m12:25:23.361436 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'write_json': 'True', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'cache_selected_only': 'False', 'target_path': 'None', 'use_colors': 'True', 'invocation_command': 'dbt debug', 'log_format': 'default', 'version_check': 'True', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'printer_width': '80', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\imadb\\.dbt', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m12:25:23.381463 [info ] [MainThread]: dbt version: 1.10.11
+[0m12:25:23.382463 [info ] [MainThread]: python version: 3.10.11
+[0m12:25:23.383461 [info ] [MainThread]: python path: C:\Users\imadb\OneDrive\Bureau\Mydigitalschool\cloud\cloud_function\venv\Scripts\python.exe
+[0m12:25:23.385465 [info ] [MainThread]: os info: Windows-10-10.0.22631-SP0
+[0m12:25:26.766605 [info ] [MainThread]: Using profiles dir at C:\Users\imadb\.dbt
+[0m12:25:26.767606 [info ] [MainThread]: Using profiles.yml file at C:\Users\imadb\.dbt\profiles.yml
+[0m12:25:26.768608 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\imadb\OneDrive\Bureau\Mydigitalschool\cloud\cloud_function\dbt_project.yml
+[0m12:25:26.769609 [info ] [MainThread]: adapter type: bigquery
+[0m12:25:26.770611 [info ] [MainThread]: adapter version: 1.10.1
+[0m12:25:26.771612 [info ] [MainThread]: Configuration:
+[0m12:25:26.772611 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m12:25:26.774613 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m12:25:26.775615 [info ] [MainThread]: Required dependencies:
+[0m12:25:26.776639 [debug] [MainThread]: Executing "git --help"
+[0m12:25:26.841154 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m12:25:26.842154 [debug] [MainThread]: STDERR: "b''"
+[0m12:25:26.843154 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m12:25:26.844157 [info ] [MainThread]: Connection:
+[0m12:25:26.845156 [info ] [MainThread]:   method: service-account
+[0m12:25:26.846163 [info ] [MainThread]:   database: data-cloud-mydigitalschool
+[0m12:25:26.846163 [info ] [MainThread]:   execution_project: data-cloud-mydigitalschool
+[0m12:25:26.847169 [info ] [MainThread]:   schema: data
+[0m12:25:26.848162 [info ] [MainThread]:   location: EU
+[0m12:25:26.848162 [info ] [MainThread]:   priority: None
+[0m12:25:26.849167 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m12:25:26.851154 [info ] [MainThread]:   impersonate_service_account: None
+[0m12:25:26.852160 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m12:25:26.853161 [info ] [MainThread]:   job_retries: 1
+[0m12:25:26.853161 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m12:25:26.854166 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m12:25:26.855156 [info ] [MainThread]:   timeout_seconds: 300
+[0m12:25:26.856159 [info ] [MainThread]:   client_id: None
+[0m12:25:26.856159 [info ] [MainThread]:   token_uri: None
+[0m12:25:26.857167 [info ] [MainThread]:   compute_region: None
+[0m12:25:26.858165 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m12:25:26.860158 [info ] [MainThread]:   gcs_bucket: None
+[0m12:25:26.860158 [info ] [MainThread]:   dataproc_batch: None
+[0m12:25:26.862163 [info ] [MainThread]: Registered adapter: bigquery=1.10.1
+[0m12:25:27.849213 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m12:25:27.850204 [debug] [MainThread]: On debug: select 1 as id
+[0m12:25:27.851189 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m12:25:28.308241 [error] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=data-cloud-mydigitalschool&j=bq:EU:997a522d-77e3-4176-88ea-a75f1da53ff5&page=queryresults
+[0m12:25:28.311247 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m12:25:28.312251 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m12:25:28.313243 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\imadb\OneDrive\Bureau\Mydigitalschool\cloud\cloud_function\dbt_project.yml> not found
+
+[0m12:25:28.314241 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  Access Denied: Project data-cloud-mydigitalschool: User does not have bigquery.jobs.create permission in project data-cloud-mydigitalschool.
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m12:25:28.317245 [debug] [MainThread]: Command `dbt debug` failed at 12:25:28.316245 after 5.11 seconds
+[0m12:25:28.318244 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m12:25:28.318244 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023221D07730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002324EA57DF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002324EA56650>]}
+[0m12:25:28.319247 [debug] [MainThread]: Flushing usage events
+[0m12:25:28.667693 [debug] [MainThread]: An error was encountered while trying to flush usage events
